@@ -110,7 +110,7 @@ function showRecommendPlayer() {
         synthes.lang = "ja-JP";
         speechSynthesis.speak(synthes);
 
-        // document.getElementById('text').innerHTML = `<a href="${link}">${content}</a>`;
+        document.getElementById('text').innerHTML = `<p>背番号${number}番   ${name}</p>`;
     });
 }
 
